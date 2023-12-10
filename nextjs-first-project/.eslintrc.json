@@ -1,0 +1,18 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "comma-spacing": [2, { "before": false, "after": true }],
+    "indent": ["error", 4],
+    "no-constant-condition": 0,
+    "no-debugger": 0,
+    "no-undefined": 0,
+    "quote-props": ["error", "as-needed"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
